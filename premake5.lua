@@ -10,6 +10,7 @@ project "ImGui"
 	{
 		"imconfig.h",
 		"imgui.h",
+        "misc/cpp/imgui_stdlib.h",
 		"imgui.cpp",
 		"imgui_draw.cpp",
 		"imgui_internal.h",
@@ -19,7 +20,13 @@ project "ImGui"
 		"imstb_textedit.h",
 		"imstb_truetype.h",
 		"imgui_demo.cpp",
+        "misc/cpp/imgui_stdlib.cpp",
 	}
+
+    includedirs
+    {
+        "."
+    }
 
     defines
     {
