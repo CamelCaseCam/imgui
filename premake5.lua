@@ -37,7 +37,7 @@ project "ImGui"
 		systemversion "latest"
 		cppdialect "C++20"
 
-	filter "system:linux"
+	filter {"system:linux", "system:macosx"}
 		pic "On"
 		systemversion "latest"
 		cppdialect "C++20"
